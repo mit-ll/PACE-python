@@ -1,0 +1,10 @@
+# global IDE, Maven, Python, ignores
+target/
+.project
+.classpath
+.settings
+.pydevproject
+*.pyc
+.idea
+*.iml
+
