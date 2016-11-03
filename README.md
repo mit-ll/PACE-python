@@ -1,22 +1,3 @@
-DISTRIBUTION STATEMENT A. Approved for public release: distribution unlimited.
-
-This material is based upon work supported by the Department of Defense under Air Force Contract 
-No. FA8721-05-C-0002 and/or FA8702-15-D-0001. Any opinions, findings, conclusions or 
-recommendations expressed in this material are those of the author(s) and do not 
-necessarily reflect the views of the Department of Defense.
-
-&copy; 2015 Massachusetts Institute of Technology.
-
-MIT Proprietary, Subject to FAR52.227-11 Patent Rights - Ownership by the contractor (May 2014)
-
-The software/firmware is provided to you on an As-Is basis
-
-Delivered to the US Government with Unlimited Rights, as defined in DFARS Part 252.227-7013 
-or 7014 (Feb 2014). Notwithstanding any copyright notice, U.S. Government rights in this 
-work are defined by DFARS 252.227-7013 or DFARS 252.227-7014 as detailed above. Use of 
-this work other than as specifically authorized by the U.S. Government may violate any 
-copyrights that exist in this work.
-
 # Proactively-secure Accumulo with Cryptographic Enforcement (PACE)
 
 The PACE library's goal is to add cryptographic protections to the Accumulo
@@ -281,6 +262,20 @@ The `signatures` package contains ways to cryptographically enforce the
 integrity of data stored in Accumulo. This uses digital signatures to sign the
 entirety of each Accumulo cell, allowing clients performing queries to guarantee
 that each result from the query is correct and has not been tampered with.
+
+## Distribution Statement
+A. Approved for public release: distribution unlimited.
+
+This material is based upon work supported by the Department of Defense under Air Force Contract 
+No. FA8721-05-C-0002 and/or FA8702-15-D-0001. Any opinions, findings, conclusions or 
+recommendations expressed in this material are those of the author(s) and do not 
+necessarily reflect the views of the Department of Defense.
+
+&copy; 2015 Massachusetts Institute of Technology.
+
+Delivered to the US Government with Unlimited Rights, as defined in DFARS Part 252.227-7013 
+or 7014 (Feb 2014). Notwithstanding any copyright notice, U.S. Government rights in this 
+work are defined by DFARS 252.227-7013 or DFARS 252.227-7014 as detailed above.
 
 ## License
 Copyright (c) 2016, MIT Lincoln Laboratory
